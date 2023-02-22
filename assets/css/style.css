@@ -44,7 +44,7 @@ a {
     background-color: aquamarine;
   }
 
-  .debug nav {
+  .debug header {
     background-color: cyan;
   }
 
@@ -94,12 +94,12 @@ a {
 }
 
 /* Main */
-nav {
+header {
   background-color: var(--dark);
  
 }
 
-nav a {
+header a {
   margin-top: 19px;
   margin-bottom: 27px;
   margin-right: 4px;
