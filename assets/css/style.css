@@ -74,6 +74,14 @@ figcaption strong {
   flex-wrap: wrap;
 }
 
+.unstyle_list {
+  list-style: none;
+}
+
+.circle {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
