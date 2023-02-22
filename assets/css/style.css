@@ -52,6 +52,10 @@ a {
 .text_center {
   text-align: center;
 }
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
