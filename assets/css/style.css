@@ -2,14 +2,20 @@
 :root {
   --light: #ffffff;
   --dark: #000000;
+  --dark_light: #141922;
   --green: #adff2f;
   --grey: #7b7d82;
+  --footer: #282828;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark_light);
 }
 
 a {
@@ -27,9 +33,19 @@ a {
 .justify_content_end {
   justify-content: flex-end;
 }
+
+.btn {
+  border: 1px solid var(--light);
+  border-radius: 2rem;
+  padding: 16px 41px;
+}
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
+  }
+
+  .debug nav {
+    background-color: cyan;
   }
 
   .debug .sidebar {
@@ -77,8 +93,29 @@ a {
   /* overflow-y: auto; */
 }
 
+/* Main */
+nav {
+  background-color: var(--dark);
+ 
+}
+
+nav a {
+  margin-top: 19px;
+  margin-bottom: 27px;
+  margin-right: 4px;
+  color: var(--light);
+  font-size: 0.7rem;
+}
+
+/* Aside */
+aside {
+  background-color: var(--dark);
+}
+
+/* Footer */
 footer {
   height: 86px;
+  background-color: var(--footer);
 }
 /* #Region Layout */
 
