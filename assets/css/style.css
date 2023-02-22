@@ -1,10 +1,20 @@
 /* Common */
+:root {
+  --light: #ffffff;
+  --dark: #000000;
+  --green: #adff2f;
+  --grey: #7b7d82;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
 /* Utility */
 .d_flex {
   display: flex;
@@ -13,7 +23,11 @@
 .direction_column {
   flex-direction: column;
 }
-/* Debug */
+
+.justify_content_end {
+  justify-content: flex-end;
+}
+/* #region Debug */
   .debug .top {
     background-color: aquamarine;
   }
@@ -37,6 +51,7 @@
   .debug footer {
     background-color: lime;
   }
+/* #endregion Debug */
 
 /* #Region Layout */
 .top {
