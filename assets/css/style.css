@@ -48,6 +48,10 @@ a {
   border-radius: 2rem;
   padding: 16px 41px;
 }
+
+.text_center {
+  text-align: center;
+}
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
@@ -86,7 +90,7 @@ a {
 
 .top > .sidebar {
   width: 225px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .top .sidebar_top {
@@ -99,7 +103,7 @@ a {
 
 .top > .content {
   width: calc(100% - 225px);
-  /* overflow-y: auto; */
+  overflow-y: auto;
 }
 
 /* Main */
@@ -132,6 +136,22 @@ nav a:hover {
   text-decoration: underline var(--green);
 }
 
+/* Visual */
+#visual h2 {
+  margin-bottom: 35px;
+}
+
+#visual figure {
+  padding-right: 14px;
+}
+
+figcaption {
+  color: var(--grey);
+}
+
+figcaption strong {
+  color: var(--light);
+}
 /* Aside */
 aside {
   background-color: var(--dark);
