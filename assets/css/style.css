@@ -16,15 +16,32 @@
 
 body {
   background-color: var(--dark_light);
+  font-family: 'Circular Std', sans-serif;
 }
 
 main h2 {
-  margin-left: 17px;
   color: var(--light);
+}
+
+main h2, main figure, main p {
+  margin-left: 17px;
 }
 
 a {
   text-decoration: none;
+}
+
+figure {
+  padding-right: 14px;
+}
+
+figcaption {
+  color: var(--grey);
+  text-align: center;
+}
+
+figcaption strong {
+  color: var(--light);
 }
 /* Utility */
 .d_flex {
@@ -56,6 +73,7 @@ a {
 .flex_wrap {
   flex-wrap: wrap;
 }
+
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
@@ -145,17 +163,6 @@ nav a:hover {
   margin-bottom: 35px;
 }
 
-#visual figure {
-  padding-right: 14px;
-}
-
-figcaption {
-  color: var(--grey);
-}
-
-figcaption strong {
-  color: var(--light);
-}
 /* Aside */
 aside {
   background-color: var(--dark);
