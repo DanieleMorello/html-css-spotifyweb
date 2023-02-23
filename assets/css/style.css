@@ -42,6 +42,10 @@ a {
   display: flex;
 }
 
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
 .direction_column {
   flex-direction: column;
 }
@@ -75,10 +79,6 @@ a {
 
 .text_center {
   text-align: center;
-}
-
-.flex_wrap {
-  flex-wrap: wrap;
 }
 
 .unstyle_list {
@@ -159,6 +159,23 @@ a {
 .top > .content {
   width: calc(100% - 37px);
   overflow-y: auto;
+}
+
+.margin_compensation {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.margin_compensation > [class^="col_"] {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 0 -1rem; */
 }
 
 .col_1 {
@@ -280,19 +297,35 @@ nav {
 }
 
 nav a {
-  color: var(--grey);
   padding-left: 1rem;
   padding-bottom: 30px;
   height: 1rem;
+}
+
+nav a, .card_body > div, p {
+  color: var(--grey);
 }
 
 nav a:hover {
   text-decoration: underline var(--green);
 }
 
-/* Visual */
-#visual h2 {
-  margin-bottom: 35px;
+#current, #tribute, #popular {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h1 {
+  color: var(--light);
+  margin-bottom: 2rem;
+}
+
+.content strong {
+  color: var(--light);
+}
+
+.card_body > div, p {
+  font-size: 0.7rem;
 }
 
 /* Aside */
