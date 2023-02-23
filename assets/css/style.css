@@ -6,6 +6,7 @@
   --green: #adff2f;
   --grey: #7b7d82;
   --footer: #282828;
+  --grey_icon: #808080;
 }
 
 * {
@@ -23,25 +24,17 @@ main h2 {
   color: var(--light);
 }
 
-main h2, main figure, main p {
+main h2, main p, #visual {
   margin-left: 17px;
+}
+
+img svg {
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 a {
   text-decoration: none;
-}
-
-figure {
-  padding-right: 14px;
-}
-
-figcaption {
-  color: var(--grey);
-  text-align: center;
-}
-
-figcaption strong {
-  color: var(--light);
 }
 /* Utility */
 .d_flex {
@@ -78,10 +71,16 @@ figcaption strong {
   list-style: none;
 }
 
-.circle {
+.circle, .circle_icon {
   aspect-ratio: 1/1;
   border-radius: 50%;
 }
+
+.circle_icon {
+  width: 23px;
+}
+
+
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
@@ -119,7 +118,7 @@ figcaption strong {
 }
 
 .top > .sidebar {
-  width: 225px;
+  width: 37px;
   overflow: hidden;
 }
 
@@ -132,10 +131,83 @@ figcaption strong {
 }
 
 .top > .content {
-  width: calc(100% - 225px);
+  width: calc(100% - 37px);
   overflow-y: auto;
 }
 
+.col_1 {
+  width: calc(100% / 12);
+}
+
+.col_2 {
+  width: calc(100% / 12 * 2);
+}
+
+.col_3 {
+  width: 25%;
+}
+
+.col_4 {
+  width: calc(100% / 12 * 4);
+}
+
+.col_5 {
+  width: calc(100% / 12 * 5);
+}
+
+.col_6 {
+  width: 50%;
+}
+
+.col_7 {
+  width: calc(100% / 12 * 7);
+}
+
+.col_8 {
+  width: calc(100% / 12 * 8);
+}
+
+.col_9 {
+  width: 75%;
+}
+
+.col_10 {
+  width: calc(100% / 12 * 10);
+}
+
+.col_11 {
+  width: calc(100% / 12 * 11);
+}
+
+.col_12 {
+  width: 100%;
+}
+
+/* Sidebar */
+.logo {
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+
+.sidebar_top {
+  padding-bottom: 11px;
+}
+
+.sidebar_top img, .sidebar_bottom img {
+  width: 60%;
+}
+
+/* Sidebar bottom */
+.download {
+  width: 50%;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.profile {
+  background-color: var(--grey_icon);
+  margin-left: 0.45rem;
+}
 /* Main */
 /* Header */
 header {
@@ -153,12 +225,14 @@ header a {
 
 /* Nav */
 nav {
+  margin-top: 36px;
   margin-bottom: 79px;
 }
 
 nav a {
   color: var(--grey);
   padding-left: 1rem;
+  padding-bottom: 30px;
   height: 1rem;
 }
 
