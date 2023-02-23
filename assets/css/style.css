@@ -56,7 +56,8 @@ a {
 .btn {
   border: 1px solid var(--light);
   border-radius: 2rem;
-  padding: 16px 41px;
+  padding: 15px 41px;
+  width: 219px;
 }
 
 .text_center {
@@ -212,13 +213,13 @@ a {
 /* Header */
 header {
   background-color: var(--dark);
-  
 }
 
 header a {
-  margin-top: 19px;
+  margin-top: 20px;
+  margin-right: 20px;
   margin-bottom: 27px;
-  margin-right: 4px;
+  margin-right: 11px;
   color: var(--light);
   font-size: 0.7rem;
 }
