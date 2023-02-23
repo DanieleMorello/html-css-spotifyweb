@@ -219,6 +219,10 @@ a {
   padding-bottom: 11px;
 }
 
+.sidebar_top li {
+  padding-bottom: 1rem;
+}
+
 .whidth_icon {
   width: 17%;
 }
@@ -233,6 +237,7 @@ aside span, aside a {
 
 aside h4, .home {
   color: var(--light);
+  padding: 1rem 0;
 }
 
 #add_list {
