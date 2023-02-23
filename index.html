@@ -18,33 +18,51 @@
   <body class="">
     <div class="top">
       <aside class="sidebar d_flex direction_column">
-        <div class="sidebar_top text_center">
+        <div class="sidebar_top pl_1 mt_1">
           <div class="logo">
             <img src="./assets/img/logo.svg" alt="logo">
           </div>
 
-          <div>
+          <div class="d_flex align_items_center whidth_icon">
             <img src="./assets/img/home.svg" alt="Home">
+            <span class="home">Home</span>
           </div>
 
-          <div>
+          <div class="d_flex align_items_center whidth_icon">
             <img src="./assets/img/search.svg" alt="Search">
+            <span>Search</span>
           </div>
 
-          <div>
-            <img src="./assets/img/libreria.svg" alt="Search">
+          <div class="d_flex align_items_center whidth_icon">
+            <img src="./assets/img/libreria.svg" alt="Libreria">
+            <span>La tua libreria</span>
           </div>
-
+          <h4>PLAYLIST</h4>
+          <a id="new_playlist" class="flex align_items_center" href="#">
+            <span id="add_list">+</span>
+            <span>Create Playlist</span>
+          </a>
+          <ul>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+            <li><a href="#">Nome Playlist</a></li>
+          </ul>
         </div>
 
         <div class="sidebar_bottom text_center">
 
           <div class="download">
             <img src="./assets/img/download.svg" alt="Download">
+            <span>Installa app</span>
           </div>
-
-          <div class="profile circle_icon text_center">
+          <hr>
+          <div class="profile whidth_icon circle_icon text_center">
             <img src="./assets/img/profile.svg" alt="Profilo">
+            <span>John Doe</span>
           </div>
 
         </div>
@@ -104,7 +122,7 @@
       </div>
         
       <div class="footer_center">
-        <div class="d_flex justify_content_center align_items_center">
+        <div class="d_flex justify_content_between align_items_center">
           <i class="fa-solid fa-shuffle fa-fw"></i>
           <i class="fa-solid fa-backward-step fa-fw"></i>
           <i class="fa-regular fa-circle-play fa-xl fa-fw"></i>

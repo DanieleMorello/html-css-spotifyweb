@@ -97,6 +97,14 @@ a {
 .gray {
   color: var(--grey_footer);
 }
+
+.pl_1 {
+  padding-left: 1rem;
+}
+
+.mt_1 {
+  margin-top: 1rem;
+}
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
@@ -143,7 +151,9 @@ a {
 }
 
 .top .sidebar_bottom {
-  height: 70px;
+  height: 120px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .top > .content {
@@ -201,28 +211,47 @@ a {
 
 /* Sidebar */
 .logo {
-  margin-top: 4px;
-  margin-bottom: 3px;
+  width: 80%;
+  padding: 1rem;
 }
 
 .sidebar_top {
   padding-bottom: 11px;
 }
 
-.sidebar_top img, .sidebar_bottom img {
-  width: 60%;
+.whidth_icon {
+  width: 17%;
 }
 
+aside span {
+  vertical-align: middle;
+}
+
+aside span, aside a {
+  color: var(--grey);
+}
+
+aside h4, .home {
+  color: var(--light);
+}
+
+#add_list {
+  width: 40px;
+  /* aspect-ratio: 1/1; */
+  height: 40px;
+  background-color: var(--grey_icon);
+  color: var(--dark);
+}
 /* Sidebar bottom */
 .download {
-  width: 50%;
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
+  width: 10%;
+  /* margin-bottom: 1rem;
+  margin-left: 0.5rem; */
 }
 
 .profile {
   background-color: var(--grey_icon);
-  margin-left: 0.45rem;
+  margin-bottom: 2rem;
 }
 /* Main */
 /* Header */
@@ -304,6 +333,10 @@ footer span {
   padding-right: 1rem;
 }
 
+.footer_center > div:first-child {
+  margin-bottom: 10px;
+}
+
 #album {
   padding-top: 2rem;
   font-size: 0.7rem;
@@ -313,6 +346,8 @@ footer span {
 
 #like {
   padding-top: 2.3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #total_time {
