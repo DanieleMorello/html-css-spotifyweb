@@ -1,114 +1,137 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotifyweb</title>
-  <!-- Font -->
-  <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
-  <!-- Font-awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body class="debug">
-  <div class="top">
-    <aside class="sidebar d_flex direction_column">
-      <div class="sidebar_top text_center">
-        <div class="logo">
-          <img src="./assets/img/logo-small.svg" alt="Logo">
-        </div>
-         <div>
-          <img src="./assets/img/home.svg" alt="Home">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifyweb</title>
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body class="">
+    <div class="top">
+      <aside class="sidebar d_flex direction_column">
+        <div class="sidebar_top text_center">
+          <div class="logo">
+            <img src="./assets/img/logo-small.svg" alt="Logo">
+          </div>
+
+          <div>
+            <img src="./assets/img/home.svg" alt="Home">
+          </div>
+
+          <div>
+            <img src="./assets/img/search.svg" alt="Search">
+          </div>
+
+          <div>
+            <img src="./assets/img/libreria.svg" alt="Search">
+          </div>
+
         </div>
 
-         <div>
-          <img src="./assets/img/search.svg" alt="Search">
-        </div>   
+        <div class="sidebar_bottom text_center">
 
-        <div>
-          <img src="./assets/img/libreria.svg" alt="Search">
-        </div>
-         
-      </div>
-      <div class="sidebar_bottom text_center">
-        <div class="download">
-          <img src="./assets/img/download.svg" alt="Download">
-        </div>
+          <div class="download">
+            <img src="./assets/img/download.svg" alt="Download">
+          </div>
 
-        <div class="profile circle_icon text_center">
-          <img src="./assets/img/profile.svg" alt="Profilo">
+          <div class="profile circle_icon text_center">
+            <img src="./assets/img/profile.svg" alt="Profilo">
+          </div>
+
         </div>
-      </div>
-    </aside>
-    <main class="content">
-      <header class="d_flex justify_content_end">
-        <a href="#" class="btn">EFFETTUA L'UPGRADE</a>
-      </header>
-      <!-- /header -->
-      <nav>
-      <div  class="row">
-        <div class="col_6">
-            <ul class="d_flex justify_content_center unstyle_list">
-              <li><a href="#">CLASSIFICHE</a></li>
-              <li><a href="#">PODCAST</a></li>
-              <li><a href="#">IN EVIDENZA</a></li>
-            </ul> 
-        </div>
-        <div class="col_6">
-          <ul class="d_flex justify_content_center unstyle_list">
-          <li><a href="#">GENERI E MOOD</a></li>
-          <li><a href="#">NUOVE USCITE</a></li>
-          <li><a href="#">SCOPRI</a></li>
-        </ul>
-        </div>
-             
-          
+      </aside>
+      <main class="content">
+        <header class="d_flex justify_content_end">
+          <a href="#" class="btn">EFFETTUA L'UPGRADE</a>
+        </header>
+        <!-- /header -->
+        <nav>
+          <div class="row">
+
+            <div class="col_6">
+              <ul class="d_flex justify_content_center unstyle_list">
+                <li><a href="#">CLASSIFICHE</a></li>
+                <li><a href="#">PODCAST</a></li>
+                <li><a href="#">IN EVIDENZA</a></li>
+              </ul>
+            </div>
+
+            <div class="col_6">
+              <ul class="d_flex justify_content_center unstyle_list">
+                <li><a href="#">GENERI E MOOD</a></li>
+                <li><a href="#">NUOVE USCITE</a></li>
+                <li><a href="#">SCOPRI</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+        <!-- /nav -->
+      
+      </main>
+    </div>
+  <!-- /#top  -->
+
+    <footer id="app_footer" class="d_flex align_items_center justify_content_between">
+
+      <div class="footer_left d_flex">
         
+        <div class="d_flex">
+          <div id="sinister">
+            <img src="./assets/img/sinister.jpeg" alt="Sinister">
+          </div>
+          <div id="album" class="direction_column">
+            <h4>Sinister</h4>
+            <div>Brano Nome</div>
+          </div>
+        
+        </div>
+        
+        <div id="like">
+          <i class="fa-regular fa-heart gray"></i>
+          <i class="fa-regular fa-folder gray"></i>
+        </div>
+
       </div>
-    </nav>
-    <!-- /nav -->
-      <section id="visual">
-        <h2>Recently played</h2>
-        <div  class="row">
-          <div class="col">
-            <div class="card">
-              <div class="card_img">
-                <img src="./assets/img/metal_lifting.jpg" alt="Metallica">
-              </div>
-              <div class="card_body">
-                <strong>Heavy Metal</strong>
-                <p>Subtitle</p>
-              </div>
+        
+      <div class="footer_center">
+        <div class="d_flex justify_content_center align_items_center">
+          <i class="fa-solid fa-shuffle fa-fw"></i>
+          <i class="fa-solid fa-backward-step fa-fw"></i>
+          <i class="fa-regular fa-circle-play fa-xl fa-fw"></i>
+          <i class="fa-solid fa-forward-step fa-fw"></i>
+          <i class="fa-solid fa-rotate-right fa-fw"></i>
+        </div>
+
+        <div id="timer" class="d_flex align_items_center">
+          <span>0:25</span>
+          <div id="total_time">
+            <div id="current_time"></div>
+          </div>
+          <span>4:35</span>
+        </div>
+      </div>
+       
+        <div class="footer_right">
+          <div class="d_flex align_items_center justify_content_center">
+            <i class="fa-solid fa-list fa-fw"></i>
+            <i class="fa-solid fa-display fa-fw"></i>
+            <i class="fa-solid fa-volume-high fa-fw"></i>
+            <div id="total_volume">
+              <div id="current_volume"></div>
             </div>
           </div>
-         
-          
-      
-    </main>
-   </div> 
-   <!-- /#top  -->
-
-  <footer class="bottom">
-    <div class="row">
-      <div class="col_3 d_flex">
-        <img src="./assets/img/sinister.jpeg" alt="Sinister">
-        <h4>Sinister</h4>
-        <div>Brano</div>
-        <div>Nome</div>
-      </div>
-      <div class="col_3 d_flex"></div>
-      <div class="col_3 d_flex"></div>
-    </div>
-     
-  
-    
-   
-    
-    
-     
-  </footer>
-  <!-- /.bottom -->
-</body>
+        </div>
+    </footer> 
+   <!-- /.bottom -->
+  </body>
 </html>

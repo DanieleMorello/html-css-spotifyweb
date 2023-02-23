@@ -29,9 +29,9 @@ main h2, main p, #visual {
   margin-left: 17px;
 }
 
-img svg {
+img {
   max-width: 100%;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 a {
@@ -52,6 +52,18 @@ a {
 
 .justify_content_end {
   justify-content: flex-end;
+}
+
+.justify_content_between {
+  justify-content: space-between;
+}
+
+.align_item_start {
+  align-items: flex-start;
+}
+
+.align_items_center {
+  align-items: center;
 }
 
 .btn {
@@ -82,7 +94,9 @@ a {
   width: 23px;
 }
 
-
+.gray {
+  color: var(--grey_footer);
+}
 /* #region Debug */
   .debug .top {
     background-color: aquamarine;
@@ -254,28 +268,81 @@ aside {
 
 /* Footer */
 footer {
-  /* position: fixed;
-  bottom: 0;
-  left: 0; */
   width: 100%;
   height: 86px;
   background-color: var(--footer);
+  color: var(--grey_footer);
+  overflow-y: hidden;
+}
+
+footer > * {
+  flex-basis: calc(100% / 3);
+}
+
+#sinister {
+  width: 42px;
 }
 
 footer img {
-  width: 10%;
   padding-left:10px;
   padding-top: 30px;
   padding-bottom: 33px;
 }
-
-.bottom h4 {
+footer i {
   color: var(--light);
 }
 
-.bottom p {
-  color: var(--grey_footer);
+footer h4 {
+  color: var(--light);
 }
+
+footer span {
+  color: var(--light);
+}
+
+.footer_center {
+  padding-right: 1rem;
+}
+
+#album {
+  padding-top: 2rem;
+  font-size: 0.7rem;
+  padding-left: 10px;
+  padding-right: 2rem;
+}
+
+#like {
+  padding-top: 2.3rem;
+}
+
+#total_time {
+  margin-left: 10px;
+}
+
+#total_time, #total_volume {
+  flex-grow: 1;
+  height: 5px;
+  background-color: var(--light);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#current_time,
+#current_volume {
+  height: 100%;
+  background-color: var(--grey);
+  border-radius: 5px;
+} 
+
+#current_time {
+  width: 30%;
+}
+
+#current_volume {
+  width: 15%;
+}
+
 /* #Region Layout */
 
 /* Responsive */
