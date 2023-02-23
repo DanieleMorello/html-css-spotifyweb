@@ -7,6 +7,7 @@
   --grey: #7b7d82;
   --footer: #282828;
   --grey_icon: #808080;
+  --grey_footer: #7f7f7f;
 }
 
 * {
@@ -253,8 +254,27 @@ aside {
 
 /* Footer */
 footer {
+  /* position: fixed;
+  bottom: 0;
+  left: 0; */
+  width: 100%;
   height: 86px;
   background-color: var(--footer);
+}
+
+footer img {
+  width: 10%;
+  padding-left:10px;
+  padding-top: 30px;
+  padding-bottom: 33px;
+}
+
+.bottom h4 {
+  color: var(--light);
+}
+
+.bottom p {
+  color: var(--grey_footer);
 }
 /* #Region Layout */
 
