@@ -295,6 +295,10 @@ aside h4, .home {
   background-color: var(--grey_icon);
   color: var(--dark);
 }
+
+.add_playlist{
+padding-bottom: 1rem;
+}
 /* Sidebar bottom */
 
 /* Main */
