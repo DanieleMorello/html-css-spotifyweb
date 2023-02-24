@@ -411,10 +411,8 @@ footer span {
   padding-right: 2rem;
 }
 
-#like {
-  padding-top: 2.3rem;
-  display: flex;
-  flex-direction: column;
+#timer, #like {
+  display: none;
 }
 
 #total_time {
@@ -570,10 +568,6 @@ nav {
 
 footer {
   height: 65px;
-}
-
-#album, #timer {
-  display: none;
 }
 
 #like {
