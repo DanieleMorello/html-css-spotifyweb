@@ -321,12 +321,12 @@ nav a {
   height: 1rem;
 }
 
-nav a, .card_body > div, p {
-  color: var(--grey);
+nav a:hover {
+  color: var(--light);
 }
 
-nav a:hover {
-  text-decoration: underline var(--green);
+nav a, .card_body > div, p {
+  color: var(--grey);
 }
 
 #current, #tribute, #popular {
@@ -499,13 +499,14 @@ max-width: 30%;
 
 [alt="Logo"] {
   display: flex;
-  width: 7rem;
-  margin-top: -1rem;
+  width: 6rem;
   margin-bottom: 1rem;
   text-align: center;
+  margin-top: -0.55rem;
 }
 
 [alt="Logo small"] {
+  margin-top: -0.55rem;
   display: none;
 }
 
@@ -638,6 +639,10 @@ footer {
   padding: 13px 32px;
   width: 188px;
   font-size: 1.rem;
+}
+
+[alt="Logo"] {
+margin-top: -0.5rem;
 }
 
 #album {
