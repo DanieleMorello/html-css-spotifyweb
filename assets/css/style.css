@@ -80,6 +80,11 @@ p {
   padding: 7px 32px;
   width: 149px;
   font-size: 0.5rem;
+  text-align: center;
+}
+
+.btn:hover {
+  font-size: .71rem;
 }
 
 .text_center {
@@ -286,7 +291,9 @@ aside h4, .home {
   margin-bottom: 0;
 }
 /* Sidebar bottom */
-
+.sidebar_bottom span {
+  display: none;
+}
 /* Main */
 /* Header */
 header {
@@ -329,7 +336,7 @@ nav a:hover {
 
 h1 {
   color: var(--light);
-  margin-bottom: 2rem;
+  margin-top: -3rem;
 }
 
 .content strong {
@@ -399,7 +406,7 @@ footer span {
   padding-right: 2rem;
 }
 
-#timer, #like {
+#album, #timer, #like {
   display: none;
 }
 
@@ -431,6 +438,9 @@ footer span {
   width: 15%;
 }
 
+#total_volume {
+max-width: 30%;
+}
 /* #Region Layout */
 
 /* Responsive */
@@ -489,6 +499,10 @@ footer span {
 
 [alt="Logo"] {
   display: flex;
+  width: 7rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 [alt="Logo small"] {
@@ -526,12 +540,9 @@ footer span {
   padding-right: 1rem;
 }
 
-h2, p {
-  text-align: center;
-}
-
 [alt="Profilo"] {
   width: 75%;
+  margin-top: 0.5rem;
 }
 
 .hr_sm {
@@ -621,7 +632,17 @@ footer {
   width: 100%;
 }
 
+.btn {
+  border: 1px solid var(--light);
+  border-radius: 2rem;
+  padding: 13px 32px;
+  width: 188px;
+  font-size: 1.rem;
+}
 
+#album {
+  display: inline-block;
+}
 
 }
 
@@ -672,6 +693,22 @@ footer {
   
 .col_lg_12 {
   width: 100%;
+}
+
+header {
+padding: .5rem;
+}
+
+header a {
+  width: 13rem;
+  padding: 0.8rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+#timer {
+  display: flex;
+  padding-top: 1rem;
 }
 
 } 
