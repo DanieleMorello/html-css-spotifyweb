@@ -258,6 +258,10 @@ p {
   display: none;
 }
 
+.search:hover, .library:hover, .add_playlist:hover,.download > span:hover,.profile > span:hover {
+  color: var(--light);
+}
+
 .sidebar_top {
   padding: 0.5rem;
   padding-bottom: 11px;
@@ -273,6 +277,10 @@ aside span {
 
 aside span, aside a {
   color: var(--grey);
+}
+
+aside a:hover {
+  color: var(--light);
 }
 
 aside h4, .home {
