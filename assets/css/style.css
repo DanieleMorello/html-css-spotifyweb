@@ -37,6 +37,10 @@ img {
 a {
   text-decoration: none;
 }
+
+p {
+  padding-bottom: 1rem;
+}
 /* Utility */
 .hr_sm {
   display: none;
@@ -184,12 +188,6 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-}
-
-.container
-{
-  max-width: 1152px;
-  margin: auto;
 }
 
 .row {
@@ -348,6 +346,10 @@ h1 {
 
 .content strong {
   color: var(--light);
+}
+
+.card_image img {
+  padding-bottom: 1rem;
 }
 
 .card_body > div, p {
