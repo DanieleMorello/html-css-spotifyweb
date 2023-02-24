@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 /* Utility */
+.hr_sm {
+  display: none;
+} 
+
 .d_flex {
   display: flex;
 }
@@ -194,8 +198,7 @@ a {
   margin: 0 -1rem;
 }
 
-[class^="col-"]
-{
+[class^="col-"] {
   padding: 1rem;
 }
 
@@ -248,12 +251,19 @@ a {
 }
 
 /* Sidebar */
-.logo {
-  width: 80%;
-  padding: 1rem;
+[alt="Logo"] {
+  display: none;
 }
 
 [alt="Logo small"] {
+  display: flex;
+  margin-top: -3rem;
+  margin-left: -0.4rem;
+  margin-bottom: 3rem;
+}
+
+.home, .search, .library, .sidebar_top h4, #add_list, .playlist, 
+.sidebar_top li, .download span, .profile span {
   display: none;
 }
 
@@ -287,11 +297,6 @@ aside h4, .home {
 }
 /* Sidebar bottom */
 
-
-.profile {
-  background-color: var(--grey_icon);
-  margin-bottom: 2rem;
-}
 /* Main */
 /* Header */
 header {
@@ -487,27 +492,44 @@ footer span {
 }
 
 .top > .sidebar {
-  width: 50px;
+  width: 229px;
+}
+
+[alt="Logo"] {
+  display: flex;
 }
 
 [alt="Logo small"] {
-  display: flex;
-  margin-top: -3rem;
-  margin-left: -0.4rem;
-  margin-bottom: 3rem;
+  display: none;
 }
 
-[alt="Home"],[alt="Search"],[alt="Libreria"] {
-  margin-left: -0.5rem;
+[alt="Home"],[alt="Search"],[alt="Libreria"],[alt="Download"], [alt="Profilo"] {
+  width: 20%;
+}
+
+.download , .profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile {
+  width: 50px;
 }
 
 .home, .search, .library, .sidebar_top h4, #add_list, .playlist, 
 .sidebar_top li, .download span, .profile span {
-  display: none;
+  display: flex;
+}
+
+.add_playlist {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }
 
 .top .sidebar_bottom {
-  height: 60px;
+  height: 90px;
   padding-left: 0.8rem;
   padding-right: 1rem;
 }
@@ -520,12 +542,13 @@ h2, p {
   text-align: center;
 }
 
-hr {
-  display: none;
-}
-
 [alt="Profilo"] {
   width: 75%;
+}
+
+.hr_sm {
+  display: block;
+  width: 90%;
 }
 
 .top {
@@ -614,9 +637,7 @@ footer {
   width: 100%;
 }
 
-aside img {
-  width: 20%;
-}
+
 
 }
 
