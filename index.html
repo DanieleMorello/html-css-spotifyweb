@@ -20,27 +20,31 @@
       <aside class="sidebar d_flex direction_column">
         <div class="sidebar_top pl_1 mt_1">
           <div class="logo">
-            <img src="./assets/img/logo.svg" alt="logo">
+            <img src="./assets/img/logo.svg" alt="Logo">
+          </div >
+              
+          <div class="logo_small">
+              <img src="./assets/img/logo-small.svg" alt="Logo small">
           </div>
 
-          <div class="d_flex align_items_center whidth_icon">
+          <div class="d_flex align_items_center">
             <img src="./assets/img/home.svg" alt="Home">
             <span class="home">Home</span>
           </div>
 
-          <div class="d_flex align_items_center whidth_icon">
+          <div class="d_flex align_items_center">
             <img src="./assets/img/search.svg" alt="Search">
-            <span>Search</span>
+            <span class="search">Search</span>
           </div>
 
-          <div class="d_flex align_items_center whidth_icon">
+          <div class="d_flex align_items_center">
             <img src="./assets/img/libreria.svg" alt="Libreria">
-            <span>La tua libreria</span>
+            <span class="library">La tua libreria</span>
           </div>
           <h4>PLAYLIST</h4>
           <a id="new_playlist" class="flex align_items_center" href="#">
             <span id="add_list">+</span>
-            <span>Create Playlist</span>
+            <span class="playlist">Create Playlist</span>
           </a>
           <ul>
             <li><a href="#">Nome Playlist</a></li>
@@ -53,7 +57,7 @@
           </ul>
         </div>
 
-        <div class="sidebar_bottom text_center">
+        <div class="sidebar_bottom">
 
           <div class="download">
             <img src="./assets/img/download.svg" alt="Download">
@@ -68,23 +72,26 @@
         </div>
       </aside>
       <main class="content">
-        <header class="d_flex justify_content_end">
-          <a href="#" class="btn">EFFETTUA L'UPGRADE</a>
-        </header>
-        <!-- /header -->
-        <nav>
-          <ul class="d_flex flex_wrap justify_content_center unstyle_list">
-                <li><a href="#">CLASSIFICHE</a></li>
-                <li><a href="#">PODCAST</a></li>
-                <li><a href="#">IN EVIDENZA</a></li>
-                <li><a href="#">GENERI E MOOD</a></li>
-                <li><a href="#">NUOVE USCITE</a></li>
-                <li><a href="#">SCOPRI</a></li>
-          </ul>
-        </nav>
-        <!-- /nav -->
+        <section id="header">
+          <header class="d_flex justify_content_end">
+            <a href="#" class="btn">EFFETTUA L'UPGRADE</a>
+          </header>
+          <!-- /header -->
+          <nav>
+            <ul class="d_flex flex_wrap justify_content_center unstyle_list">
+                  <li><a href="#">CLASSIFICHE</a></li>
+                  <li><a href="#">PODCAST</a></li>
+                  <li><a href="#">IN EVIDENZA</a></li>
+                  <li><a href="#">GENERI E MOOD</a></li>
+                  <li><a href="#">NUOVE USCITE</a></li>
+                  <li><a href="#">SCOPRI</a></li>
+            </ul>
+          </nav>
+          <!-- /nav -->
+        </section>
+       
 
-        <section id="current">
+        <section id="current" class="container">
           <h1>Recently played</h1>
           <div class="row margin_compensation">
             <div class="col_6">
@@ -183,7 +190,7 @@
           <!--/.row  -->
         </section>
 
-        <section id="tribute">
+        <section id="tribute" class="container">
           <h2>Creato per John Doe</h2>
           <p>Più ascolti, più accurati saranno i suggerimenti.</p>
           <div class="row margin_compensation">
@@ -218,7 +225,7 @@
           </div>
         </section>
       
-        <section id="popular">
+        <section id="popular" class="container">
           <h2>Artisti più popolari
           </h2>
           <p>Più ascolti, più accurati saranno i suggerimenti.</p>

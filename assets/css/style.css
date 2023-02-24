@@ -25,9 +25,9 @@ main h2 {
   color: var(--light);
 }
 
-main h2, main p, #visual {
+/* main h2, main p, #visual {
   margin-left: 17px;
-}
+} */
 
 img {
   max-width: 100%;
@@ -73,8 +73,9 @@ a {
 .btn {
   border: 1px solid var(--light);
   border-radius: 2rem;
-  padding: 15px 41px;
-  width: 219px;
+  padding: 7px 32px;
+  width: 149px;
+  font-size: 0.5rem;
 }
 
 .text_center {
@@ -83,6 +84,15 @@ a {
 
 .unstyle_list {
   list-style: none;
+}
+
+.square
+{
+  width: 200px;
+  aspect-ratio: 1 /1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle, .circle_icon {
@@ -161,7 +171,7 @@ a {
   overflow-y: auto;
 }
 
-.margin_compensation {
+/* .margin_compensation {
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -170,12 +180,23 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+} */
+
+.container
+{
+  max-width: 1152px;
+  margin: auto;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 -1rem; */
+  margin: 0 -1rem;
+}
+
+[class^="col-"]
+{
+  padding: 1rem;
 }
 
 .col_1 {
@@ -232,16 +253,16 @@ a {
   padding: 1rem;
 }
 
+[alt="Logo small"] {
+  display: none;
+}
+
 .sidebar_top {
   padding-bottom: 11px;
 }
 
 .sidebar_top li {
   padding-bottom: 1rem;
-}
-
-.whidth_icon {
-  width: 17%;
 }
 
 aside span {
@@ -265,11 +286,7 @@ aside h4, .home {
   color: var(--dark);
 }
 /* Sidebar bottom */
-.download {
-  width: 10%;
-  /* margin-bottom: 1rem;
-  margin-left: 0.5rem; */
-}
+
 
 .profile {
   background-color: var(--grey_icon);
@@ -282,9 +299,9 @@ header {
 }
 
 header a {
-  margin-top: 20px;
+  margin-top: 16px;
   margin-right: 20px;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
   margin-right: 11px;
   color: var(--light);
   font-size: 0.7rem;
@@ -419,10 +436,95 @@ footer span {
 /* #Region Layout */
 
 /* Responsive */
-/* @media screen and (min-width:) {
+@media screen and (max-width: 480px) {
+  .col_sm_1 {
+    width: calc(100% / 12);
+  }
+  
+  .col_sm_2 {
+    width: calc(100% / 12 * 2);
+  }
+  
+  .col_sm_3 {
+    width: 25%;
+  }
+  
+  .col_sm_4 {
+    width: calc(100% / 12 * 4);
+  }
+  
+  .col_sm_5 {
+    width: calc(100% / 12 * 5);
+  }
+  
+  .col_sm_6 {
+    width: 50%;
+  }
+  
+  .col_7 {
+    width: calc(100% / 12 * 7);
+  }
+  
+  .col_sm_8 {
+    width: calc(100% / 12 * 8);
+  }
+  
+  .col_sm_9 {
+    width: 75%;
+  }
+  
+  .col_sm_10 {
+    width: calc(100% / 12 * 10);
+  }
+  
+  .col_sm_11 {
+    width: calc(100% / 12 * 11);
+  }
+  
+  .col_sm_12 {
+    width: 100%;
+  }
 
+  .top > .sidebar {
+    width: 50px;
+  }
+
+  [alt="Logo small"] {
+    display: flex;
+    margin-top: -3rem;
+    margin-left: -0.4rem;
+    margin-bottom: 3rem;
+  }
+
+  [alt="Home"],[alt="Search"],[alt="Libreria"] {
+    margin-left: -0.5rem;
+  }
+  .home, .search, .library, .sidebar_top h4, #add_list, .playlist, 
+  .sidebar_top li, .download span, .profile span {
+    display: none;
+  }
+
+  .top .sidebar_bottom {
+    height: 60px;
+    padding-left: 0.8rem;
+    padding-right: 1rem;
 }
 
-@media screen and (min-width:) {
-
+/* [alt="Download"] {
+  width: 50%;
 } */
+
+hr {
+  display: none;
+}
+
+[alt="Profilo"] {
+  width: 75%;
+}
+
+
+} 
+
+/* @media screen and (min-width:) {
+
+}  */
