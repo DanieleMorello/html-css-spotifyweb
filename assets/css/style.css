@@ -241,11 +241,6 @@ p {
 }
 
 /* Sidebar */
-.logo {
-  border-left: 3px solid var(--green);
-  margin-left: -0.5rem;
-}
-
 [alt="Logo"] {
   display: none;
 }
@@ -563,6 +558,13 @@ max-width: 30%;
 [alt="Logo small"] {
   margin-top: -0.55rem;
   display: none;
+}
+
+[alt="Home"] {
+  border-left: 3px solid var(--green);
+  margin-left: -0.6rem !important;
+  padding-left: 1.5rem;
+  width: 35% !important;
 }
 
 [alt="Home"],[alt="Search"],[alt="Libreria"] {
