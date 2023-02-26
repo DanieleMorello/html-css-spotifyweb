@@ -847,3 +847,17 @@ footer span {
     padding-top: 1rem;
   }
 }
+
+@media screen and (max-height: 320px) {
+  .sidebar_top h4,
+  #add_list,
+  .playlist,
+  .sidebar_top li,
+  [alt="Download"],
+  .download span,
+  .hr_sm,
+  [alt="Profilo"],
+  .profile span {
+    display: none;
+  }
+}
