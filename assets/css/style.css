@@ -415,6 +415,10 @@ footer img {
   padding-bottom: 33px;
 }
 
+#like i:hover {
+  color: var(--light);
+}
+
 footer i {
   color: var(--light);
 }
