@@ -162,8 +162,8 @@ p {
 
 .top .sidebar_bottom {
   height: 50px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.8rem;
 }
 
 .top > .content {
@@ -247,8 +247,8 @@ p {
 
 [alt="Logo small"] {
   display: flex;
-  margin-top: 0rem;
-  margin-bottom: 1rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
   width: 90%;
 }
 
