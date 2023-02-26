@@ -84,7 +84,7 @@ p {
 }
 
 .btn:hover {
-  font-size: .71rem;
+  transform: scale(1.15);
 }
 
 .text_center {
@@ -258,7 +258,7 @@ p {
   display: none;
 }
 
-.search:hover, .library:hover, .add_playlist:hover,.download > span:hover,.profile > span:hover {
+.search:hover, .library:hover, .add_playlist:hover,.download > span:hover,.profile > span {
   color: var(--light);
 }
 
@@ -416,6 +416,19 @@ footer span {
 
 #album, #timer, #like {
   display: none;
+}
+
+#album > div:hover {
+  color: var(--light);
+  text-decoration: underline;
+}
+
+#like:hover {
+  color: var(--light);
+}
+
+.fa-circle-play:hover {
+  transform: scale(1.15);
 }
 
 #total_time {
