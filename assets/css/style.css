@@ -560,9 +560,12 @@ max-width: 30%;
   display: none;
 }
 
+[alt="Home"],[alt="Search"],[alt="Libreria"] {
+  margin-left: 1rem;
+}
+
 [alt="Home"],[alt="Search"],[alt="Libreria"],[alt="Download"], [alt="Profilo"] {
   width: 20%;
-  margin-left: 1rem;
 }
 
 .download , .profile {
