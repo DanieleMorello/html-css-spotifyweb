@@ -605,7 +605,7 @@ footer span {
 
   [alt="Logo"] {
     display: flex;
-    width: 8rem;
+    width: 9rem;
     margin-bottom: 1rem;
     margin-top: -0.55rem;
     padding-top: 1.5rem;
@@ -714,6 +714,7 @@ footer span {
   .footer_center > div:first-child {
     margin-bottom: 0px;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -768,9 +769,9 @@ footer span {
   .btn {
     border: 1px solid var(--light);
     border-radius: 2rem;
-    padding: 13px 32px;
-    width: 188px;
-    font-size: 1rem;
+    padding: 12px 10px;
+    width: 255px;
+    font-size: 1rem;;
   }
 
   [alt="Logo"] {
@@ -837,8 +838,8 @@ footer span {
 
   header a {
     width: 13rem;
-    padding: 0.8rem;
-    font-size: 0.7rem;
+    padding: 0.7rem;
+    font-size: 0.5rem;
     text-align: center;
   }
 
@@ -860,4 +861,5 @@ footer span {
   .profile span {
     display: none;
   }
+
 }
