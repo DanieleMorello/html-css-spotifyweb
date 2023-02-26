@@ -108,6 +108,10 @@ p {
   padding-left: 1rem;
 }
 
+.pt_1 {
+  padding-top: 1rem;
+}
+
 .mt_1 {
   margin-top: 1rem;
 }
@@ -265,6 +269,7 @@ p {
 .sidebar_top {
   padding: 0.5rem;
   padding-bottom: 11px;
+  /* border-left: 3px solid var(--green); */
 }
 
 .sidebar_top li {
@@ -279,8 +284,18 @@ aside span, aside a {
   color: var(--grey);
 }
 
+aside a {
+  margin-left: 1rem;
+}
+
 aside a:hover {
   color: var(--light);
+}
+
+aside h4 {
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+  margin-left: 1rem;
 }
 
 aside h4, .home {
@@ -321,6 +336,19 @@ header a {
 nav {
   margin-top: 36px;
   margin-bottom: 79px;
+}
+
+#navigator > nav li {
+  margin: 15px 10px;
+}
+
+#navigator nav li::after {
+  content: '';
+  
+  margin: auto;
+  width: 40px;
+  height: 3px;
+  background-color: var(--green);
 }
 
 nav a {
@@ -520,10 +548,11 @@ max-width: 30%;
 
 [alt="Logo"] {
   display: flex;
-  width: 6rem;
+  width: 8rem;
   margin-bottom: 1rem;
-  text-align: center;
   margin-top: -0.55rem;
+  padding-top: 1.5rem;
+  margin-left: 1rem;
 }
 
 [alt="Logo small"] {
@@ -533,6 +562,7 @@ max-width: 30%;
 
 [alt="Home"],[alt="Search"],[alt="Libreria"],[alt="Download"], [alt="Profilo"] {
   width: 20%;
+  margin-left: 1rem;
 }
 
 .download , .profile {
@@ -554,6 +584,7 @@ max-width: 30%;
   display: flex;
   align-items: center;
   gap: .5rem;
+  margin-left: 1rem;
 }
 
 .top .sidebar_bottom {
