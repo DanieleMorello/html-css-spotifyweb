@@ -241,6 +241,11 @@ p {
 }
 
 /* Sidebar */
+.logo {
+  border-left: 3px solid var(--green);
+  margin-left: -0.5rem;
+}
+
 [alt="Logo"] {
   display: none;
 }
