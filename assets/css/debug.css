@@ -1,0 +1,27 @@
+.debug .top {
+  background-color: aquamarine;
+}
+
+.debug header {
+  background-color: cyan;
+}
+
+.debug .sidebar {
+  background-color: blue;
+}
+
+.debug .sidebar_top {
+  background-color: fuchsia;
+}
+
+.debug .sidebar_bottom {
+  background-color: red;
+}
+
+.debug .content {
+  background-color: blueviolet;
+}
+
+.debug footer {
+  background-color: lime;
+}

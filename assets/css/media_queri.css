@@ -1,0 +1,313 @@
+@media screen and (min-width: 480px) {
+  .col_sm_1 {
+    width: calc(100% / 12);
+  }
+
+  .col_sm_2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col_sm_3 {
+    width: 25%;
+  }
+
+  .col_sm_4 {
+    width: calc(100% / 12 * 4);
+  }
+
+  .col_sm_5 {
+    width: calc(100% / 12 * 5);
+  }
+
+  .col_sm_6 {
+    width: 50%;
+  }
+
+  .col_sm_7 {
+    width: calc(100% / 12 * 7);
+  }
+
+  .col_sm_8 {
+    width: calc(100% / 12 * 8);
+  }
+
+  .col_sm_9 {
+    width: 75%;
+  }
+
+  .col_sm_10 {
+    width: calc(100% / 12 * 10);
+  }
+
+  .col_sm_11 {
+    width: calc(100% / 12 * 11);
+  }
+
+  .col_sm_12 {
+    width: 100%;
+  }
+
+  .top > .sidebar {
+    width: 229px;
+  }
+
+  [alt="Logo"] {
+    display: flex;
+    width: 9rem;
+    margin-bottom: 1rem;
+    margin-top: -0.55rem;
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  [alt="Logo small"] {
+    margin-top: -0.55rem;
+    display: none;
+  }
+
+  [alt="Home"] {
+    border-left: 3px solid var(--green);
+    margin-left: -0.6rem !important;
+    padding-left: 1.5rem;
+    width: 35% !important;
+  }
+
+  [alt="Home"],
+  [alt="Search"],
+  [alt="Libreria"] {
+    margin-left: 1rem;
+  }
+
+  [alt="Home"],
+  [alt="Search"],
+  [alt="Libreria"],
+  [alt="Download"],
+  [alt="Profilo"] {
+    width: 20%;
+  }
+
+  .download,
+  .profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .profile {
+    width: 50px;
+  }
+
+  .home,
+  .search,
+  .library,
+  .sidebar_top h4,
+  #add_list,
+  .playlist,
+  .sidebar_top li,
+  .download span,
+  .profile span {
+    display: flex;
+  }
+
+  .add_playlist {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .top .sidebar_bottom {
+    height: 90px;
+    padding-left: 0.8rem;
+    padding-right: 1rem;
+  }
+
+  [alt="Profilo"] {
+    width: 75%;
+    margin-top: 0.5rem;
+  }
+
+  .hr_sm {
+    display: block;
+    width: 90%;
+  }
+
+  .top {
+    height: calc(100vh - 65px);
+  }
+
+  h1 {
+    color: var(--light);
+    margin-bottom: 2rem;
+    margin-top: -4rem;
+  }
+
+  nav {
+    margin-top: 20px;
+    margin-bottom: 79px;
+  }
+
+  footer {
+    height: 65px;
+  }
+
+  #like {
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+  }
+
+  .footer_center > div:first-child {
+    margin-bottom: 0px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .col_md_1 {
+    width: calc(100% / 12);
+  }
+
+  .col_md_2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col_md_3 {
+    width: 25%;
+  }
+
+  .col_md_4 {
+    width: calc(100% / 12 * 4);
+  }
+
+  .col_md_5 {
+    width: calc(100% / 12 * 5);
+  }
+
+  .col_md_6 {
+    width: 50%;
+  }
+
+  .col_md_7 {
+    width: calc(100% / 12 * 7);
+  }
+
+  .col_md_8 {
+    width: calc(100% / 12 * 8);
+  }
+
+  .col_md_9 {
+    width: 75%;
+  }
+
+  .col_md_10 {
+    width: calc(100% / 12 * 10);
+  }
+
+  .col_md_11 {
+    width: calc(100% / 12 * 11);
+  }
+
+  .col_md_12 {
+    width: 100%;
+  }
+
+  .btn {
+    border: 1px solid var(--light);
+    border-radius: 2rem;
+    padding: 12px 10px;
+    width: 255px;
+    font-size: 1rem;;
+  }
+
+  [alt="Logo"] {
+    margin-top: -0.5rem;
+  }
+
+  #album {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .col_lg_1 {
+    width: calc(100% / 12);
+  }
+
+  .col_lg_2 {
+    width: calc(100% / 12 * 2);
+  }
+
+  .col_lg_3 {
+    width: 25%;
+  }
+
+  .col_lg_4 {
+    width: calc(100% / 12 * 4);
+  }
+
+  .col_lg_5 {
+    width: calc(100% / 12 * 5);
+  }
+
+  .col_lg_6 {
+    width: 50%;
+  }
+
+  .col_lg_7 {
+    width: calc(100% / 12 * 7);
+  }
+
+  .col_lg_8 {
+    width: calc(100% / 12 * 8);
+  }
+
+  .col_lg_9 {
+    width: 75%;
+  }
+
+  .col_lg_10 {
+    width: calc(100% / 12 * 10);
+  }
+
+  .col_lg_11 {
+    width: calc(100% / 12 * 11);
+  }
+
+  .col_lg_12 {
+    width: 100%;
+  }
+
+  header {
+    padding: 0.5rem;
+  }
+
+  header a {
+    width: 13rem;
+    padding: 0.7rem;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  #timer {
+    display: flex;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-height: 320px) {
+  .sidebar_top h4,
+  #add_list,
+  .playlist,
+  .sidebar_top li,
+  [alt="Download"],
+  .download span,
+  .hr_sm,
+  [alt="Profilo"],
+  .profile span {
+    display: none;
+  }
+
+}
